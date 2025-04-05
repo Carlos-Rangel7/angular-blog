@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 
+
 @Component({
   selector: 'app-big-card',
   standalone: true,
@@ -15,5 +16,7 @@ export class BigCardComponent {
   cardTitle:string=""
   @Input()
   cardDescription:string=""
+  @Input()
+  id:string="0"
 
 }
